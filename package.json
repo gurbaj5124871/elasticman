@@ -1,0 +1,44 @@
+{
+  "name": "elasticman",
+  "version": "1.0.2",
+  "description": "Elasticman to the rescue elsaticsearch clusters",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurbaj5124871/elasticman.git"
+  },
+  "bin": {
+    "elasticman": "./index.js"
+  },
+  "author": "Gurbaj Singh",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "commander": "^2.19.0",
+    "elasticsearch": "^15.2.0",
+    "mailgen": "^2.0.6",
+    "nodemailer": "^4.7.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "npmlog": "^4.1.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elasticsearch",
+    "moniter",
+    "alerts",
+    "elaticsearch monitering tool",
+    "elasticsearch alerting tool",
+    "elasticman",
+    "elastic",
+    "search"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gurbaj5124871/elasticman/issues"
+  },
+  "homepage": "https://github.com/gurbaj5124871/elasticman#readme"
+}
