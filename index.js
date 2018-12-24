@@ -4,8 +4,8 @@ const path = require('path');
 const log = require('npmlog');
 const program = require('commander');
 const elasticman = require('./lib/elasticman');
+const snapshots = require('./lib/snapshots');
 const logger = require('./util/logger');
-
 // Define CLI arguments and options
 program
     .version('1.0.0')
@@ -28,7 +28,9 @@ if (program.testEmail) {
 
 // Start monitoring
 (async ()=> {
-await new elasticman(config)
+    await new elasticman(config)
+    if(config.repositoryName.length)
+    await new snapshots(config)
 })();
 
 process.on('unhandledRejection', (err) => {
