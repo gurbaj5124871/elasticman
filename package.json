@@ -12,12 +12,12 @@
   },
   "author": "Gurbaj Singh",
   "dependencies": {
-    "@slack/client": "^4.8.0",
-    "commander": "^2.19.0",
-    "elasticsearch": "^15.2.0",
-    "mailgen": "^2.0.6",
-    "node-schedule": "^1.3.1",
-    "nodemailer": "^4.7.0",
+    "@slack/client": "^5.0.1",
+    "commander": "^2.20.0",
+    "elasticsearch": "^16.1.0",
+    "mailgen": "^2.0.7",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.2.1",
     "nodemailer-smtp-transport": "^2.7.4",
     "npmlog": "^4.1.2"
   },
